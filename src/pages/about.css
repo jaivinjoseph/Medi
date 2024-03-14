@@ -1,0 +1,62 @@
+.about_us{    
+    color: #007956;
+    font-size: 2vw;
+    font-weight: 600;
+    justify-content: center;
+    display: flex;
+    margin-top: 2vw;
+    font-family: "Poppins", sans-serif;
+}
+
+.abt {
+    font-size: 1vw;
+    margin-top: 4vw;
+    display: flex;
+    flex-direction: column;
+    margin: 2vw;
+    line-height: 2vw;
+    font-family: "Poppins", sans-serif;
+    word-spacing: 0.5vw;
+}
+
+.meet {
+    color: #007956;
+    font-size: 2vw;
+    font-weight: 600;
+    justify-content: center;
+    display: flex;
+    margin-top: 2vw;
+    font-family: "Poppins", sans-serif;
+}
+
+.abtt_img {
+    display: flex;
+    gap: 15vw;
+    padding: 1vw;
+    justify-content: center;
+    margin-top: 3vw;
+}
+
+.abt_img {
+    height: 15vw;
+    width: 10vw;
+}
+
+.abt_img_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vw;
+}
+.abt_de{
+    color: #007956;
+    font-size: 1vw;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    margin-top: 1vw;
+
+}
+.abt_img:hover{
+    scale: 1.1;
+}

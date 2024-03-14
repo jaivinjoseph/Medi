@@ -1,0 +1,341 @@
+.home {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.ho {
+  color: green;
+  font-size: 20px;
+}
+.losi {
+  justify-content: center;
+  display: flex;
+  margin-top: -2.8vw;
+  margin-left: 80vw;
+}
+
+.line {
+  content: "";
+  position: absolute;
+  top: 3.5vw;
+  left: 0;
+  width: 100%;
+  height: 0.01vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+
+.log {
+  display: flex;
+}
+
+.logg {
+  display: flex;
+  align-items: center;
+  height: 2vw;
+  width: 5vw;
+  margin-left: 1vw;
+  justify-content: center;
+  margin-top: -2.8vw;
+}
+
+.texx {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  font-size: 15vw;
+  color: #007956;
+}
+
+.texxx {
+  font-family: "Poppins", sans-serif;
+  font-size: 15vw;
+  color: #94cda5;
+  margin-left: 1vw;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15vw;
+}
+
+.tex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.local {
+  display: flex;
+}
+.loc {
+  font-family: "Poppins", sans-serif;
+  font-size: 3vw;
+  display: flex;
+  color: #007956;
+  font-style: italic;
+  flex-direction: column;
+  margin-top: -2vw;
+}
+.back {
+  display: flex;
+  justify-content: center;
+  margin-top: 12vw;
+}
+
+.bgg {
+  height: 40vw;
+  width: 70vw;
+  object-fit: cover;
+  border-radius: 2%;
+  background-color: black;
+}
+.lo {
+  width: 4vw;
+  height: 2vw;
+  background-color: #007956;
+  justify-content: center;
+  border-radius: 5px;
+}
+.loo {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 0.8vw;
+  margin-top: 0.4vw;
+}
+.login {
+  display: flex;
+  justify-content: center;
+}
+.lo:hover {
+  background-color: #94cda5;
+}
+.sign {
+  display: flex;
+  width: 4vw;
+  height: 2vw;
+  background-color: #007956;
+  justify-content: center;
+  border-radius: 5px;
+  margin-left: 1vw;
+}
+.sig {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 0.8vw;
+}
+.sii {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 0.8vw;
+  margin-top: 0.4vw;
+}
+.sign:hover {
+  background-color: #94cda5;
+}
+.back {
+  position: relative;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 3vw;
+  font-weight: 500;
+}
+
+.tint {
+  position: relative;
+}
+
+.tint::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70vw;
+  height: 40vw;
+  background: linear-gradient(
+    to bottom right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.5)
+  );
+  border-radius: 2%;
+}
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.abou {
+  width: 4vw;
+  height: 2vw;
+  background-color: #007956;
+  justify-content: center;
+  border-radius: 5px;
+  margin-left: 67vw;
+  margin-top: 1.1vw;
+}
+.ab {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 0.8vw;
+  margin-top: -0.2vw;
+  align-items: center;
+  display: flex;
+}
+.abou:hover {
+  background-color: #94cda5;
+}
+.service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.servic {
+  width: 4vw;
+  height: 2vw;
+  background-color: #007956;
+  justify-content: center;
+  border-radius: 5px;
+  margin-left: 57vw;
+  margin-top: -2vw;
+}
+.serv {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 0.8vw;
+  margin-top: 0.45vw;
+  align-items: center;
+  display: flex;
+}
+.servic:hover {
+  background-color: #94cda5;
+}
+.lloo {
+  background-color: #007956;
+  border: none;
+  width: 4vw;
+  height: 2vw;
+  border-radius: 5px;
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+}
+.lloo:hover {
+  background-color: #94cda5;
+}
+.s {
+  background-color: #007956;
+  border: none;
+  width: 4vw;
+  height: 1.8vw;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+.s:hover {
+  background-color: #94cda5;
+}
+.abb {
+  background-color: #007956;
+  border: none;
+  width: 4vw;
+  height: 2vw;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+.abb:hover {
+  background-color: #94cda5;
+}
+.servv {
+  background-color: #007956;
+  border: none;
+  width: 4vw;
+  height: 2vw;
+  border-radius: 5px;
+  display: flex;
+  text-decoration: none;
+
+  justify-content: center;
+}
+.servv:hover {
+  background-color: #94cda5;
+}
+.dropdown_content {
+  background-color: #007956;
+  list-style: none;
+} /* home.css */
+
+/* Dropdown container */
+.dropdown {
+  position: relative;
+}
+
+/* Dropdown button */
+.servv {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  margin-top: -0.2vw;
+  background-color: #007956;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 0; /* Remove default padding */
+  border-radius: 4px;
+  top: 100%;
+  left: 0;
+  width: 150px;
+  list-style-type: none;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: #333;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+
+.dropdown-content a:hover {
+  background-color: #94cda5;
+}
+.sea {
+  font-size: 1vw;
+  color: white;
+}
+.white{
+  align-items: center;
+}
+.about{
+  display: flex;
+  justify-content: center;
+  
+}

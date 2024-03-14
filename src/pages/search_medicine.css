@@ -1,0 +1,121 @@
+.med {
+    font-size: 3vw;
+    font-weight: 500;
+    color: #007956;
+    font-family: "Poppins", sans-serif;
+    text-align: center; /* Center the text horizontally */
+}
+
+.medd {
+    display: flex;
+    justify-content: center;
+    margin-top: 2vw;
+}
+
+.box {
+    height: 20vw;
+    border-radius: 10px;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #007956;
+}
+
+.boxx {
+    display: flex;
+    justify-content: center;
+    margin-top: 7vw;
+}
+
+.w_bxx {
+    background-color: white;
+    position: relative;
+    width: 70vw;
+    height: 10vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 1vw;
+    border-radius: 10px;
+}
+
+.w_bx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meddi {
+    font-size: 2vw;
+    font-family: "Poppins", sans-serif;
+    margin-left: 6vw;
+    color: white;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    height: 3vw;
+    width: 50vw;
+    margin-top: 3vw;
+    border-radius: 40px;
+    margin-left: 5vw;
+    border-width: .5px;
+    border-color: black;
+    text-align: center; /* Center the text horizontally */
+}
+
+.selected-pincode {
+    font-size: 1.1vw;
+    margin-left: 1vw;
+    color: #007956;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center the text vertically */
+}
+
+.search::placeholder {
+    font-size: 1vw;
+    text-align: center;
+}
+
+.dropdown1 {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px; /* Adjust margin as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color:#007956;
+    min-width: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+    top: 100%; /* Position the dropdown below the "Select Pincode" text */
+    left: 0;
+}
+
+.dropdown1:hover .dropdown-content1 {
+    display: block;
+}
+
+.value_drop {
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    font-size: 1vw;
+    background-color: #007956;
+    border: none;
+}
+
+.value_drop:hover {
+    background-color:#94cda5;
+}
